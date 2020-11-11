@@ -6,19 +6,18 @@ const tableData = data;
 const tbody = d3.select("tbody");
 
 // Filtering data using date
-function clickFilter({
+function clickFilter(){
     const date = d3.select("#datetime").property("value");
     let filterInfo = tableData;
 }
 
-)
 
-function createTable(info {
+function createTable(info) {
     tbody.html("");
 
     info.forEach((dataInfo) => {
 
     }
 
-    )
+    
 }
