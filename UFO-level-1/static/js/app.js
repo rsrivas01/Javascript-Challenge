@@ -1,4 +1,6 @@
 // from data.js
-var tableData = data;
+// Changed var to const since the value will not change
+const tableData = data;
 
-// YOUR CODE HERE!
+// Connect directly to body of table
+const tbody = d3.select("tbody");
