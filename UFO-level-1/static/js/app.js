@@ -17,6 +17,10 @@ function clickFilter(){
     // Add a row into the table
     filterInfo.forEach((tRow) => {
         const row = tbody.append("tr");
+        // Input info into each table row
+        Object.values(tRow).forEach((value) => {
+            
+        }
 
     );
 }
