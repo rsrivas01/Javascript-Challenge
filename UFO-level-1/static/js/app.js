@@ -14,9 +14,9 @@ function clickFilter(){
     }
     // Clear table
     tbody.html("");
+    // Add a row into the table
+    filterInfo.forEach((tRow) => {
+        const row = tbody.append("tr");
 
+    );
 }
-
-
-
-
