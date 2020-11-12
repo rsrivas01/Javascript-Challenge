@@ -27,3 +27,5 @@ function clickFilter(){
 
     });
 }
+// The button id="filter-btn" in index.html triggers Use d3 to call funtion ClickFilter
+d3.selectAll("#filter-btn").on("click", ClickFilter);
