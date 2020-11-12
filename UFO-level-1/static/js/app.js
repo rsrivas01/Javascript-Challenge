@@ -19,8 +19,11 @@ function clickFilter(){
         const row = tbody.append("tr");
         // Input info into each table row
         Object.values(tRow).forEach((value) => {
-            
+            // Add a cell in each row
+            let cell = row.append("td");
+            cell.text(value);
         }
+        );
 
-    );
+    });
 }
