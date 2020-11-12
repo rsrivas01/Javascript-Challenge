@@ -12,15 +12,11 @@ function clickFilter(){
         // Use filter to match the date to datetime from tableData
         filterInfo = tableData.filter(row => row.datetime === date);
     }
-}
-
-
-function createTable(info) {
+    // Clear table
     tbody.html("");
 
-    info.forEach((dataInfo) => {
-
-    }
-
-    
 }
+
+
+
+
