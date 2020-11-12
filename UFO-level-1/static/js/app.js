@@ -8,7 +8,10 @@ const tbody = d3.select("tbody");
 // Filtering data using date
 function clickFilter(){
     const date = d3.select("#datetime").property("value");
-    let filterInfo = tableData;
+    if (date) {
+        // Use filter to match the date to datetime from tableData
+        filterInfo = tableData.filter(row => row.datetime === date);
+    }
 }
 
 
